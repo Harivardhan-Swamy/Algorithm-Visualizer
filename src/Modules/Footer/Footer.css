@@ -1,0 +1,67 @@
+.Box{
+    padding: 20px 20px;
+    font-size: 1.4rem;
+    background: rgb(48, 48, 48);
+    position: static;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+
+.fa-instagram{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    
+    
+    
+}
+.fa-facebook-square{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    
+    
+}
+.fa-github-square{
+    color: white;
+    font-size: 1.4rem;
+    justify-content: center;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    
+   
+}
+.Container{
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Row{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.Socials{
+    padding: 0 0 0;
+}
