@@ -1,38 +1,36 @@
-import React from 'react';
-import CardItem from './CardItem';
-import Image1 from '../../Media/Elderflame.png';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Cards.css'
-import {BrowserRouter as  Router,Switch,Route} from 'react-router-dom';
+import { DataContext } from '../DataForCards';
 
-function Cards(){
-    return(
-        <div className="Cards">
-            
-            <p>Placeholder Text</p>
-            <div className='CardContainer'>
-                <div className='CardWrapper'>
-                    <ul className='CardItems'>
-                        <CardItem
-                        label = 'VisualizerAAAAAAAAAAAA'
-                        Source={Image1}
-                        Path='/'
-                        Description='Visualizer AAAAAAAAAAAAAA'/>
-                        <CardItem
-                        label = 'Visualizer'
-                        Source={Image1}
-                        Path='/'
-                        Description='Visualizer'/>
-                    </ul>
-                   
-                </div>
+export class Cards extends Component{
+    static  contextType = DataContext;
+    render(){
+        const {Methods}=this.context
+        return(
+            <div id="product">   
+                {
+                    Methods.map(Method=>(
+                        <div className="card" key={Method.Label}>
+                           <Link to={`/Cards/${Method.Label}`}>   
+                           <img src={Method.Source} alt=""/> 
+                           </Link>
+                           <div className="content">
+                            <h3>
+                                <Link to={`/Cards/${Method.Label}`}>
+                            {Method.Title}</Link>
+                            <p> {Method.Description}</p>
+                            </h3>
+                           
+                            </div> 
+                        </div>
+                    ))
+                }
             </div>
-           
-        </div>
-    );
+        )
 
 
-
-
+    }
 }
 
-export default Cards;
+export default Cards

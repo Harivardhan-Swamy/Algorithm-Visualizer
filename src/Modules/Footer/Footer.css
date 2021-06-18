@@ -1,13 +1,13 @@
 .Box{
     padding: 20px 20px;
     font-size: 1.4rem;
-    background: rgb(48, 48, 48);
+    background: rgb(16, 11, 97);
     position: static;
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
-    
+    text-align: left;
     
 }
 
