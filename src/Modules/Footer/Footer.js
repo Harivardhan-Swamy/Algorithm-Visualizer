@@ -4,27 +4,22 @@ import "./Footer.css";
 
 
 const Footer = () => {
-return(
-<div className="Box">
-    <div style={{ color: "white", textAlign: "center" }}>Contributors</div>
-    
-    <div className = "Container">
-        <div className="Row">
-            <div className="Column">Name 1</div>
-            <div className="Column">Name 1</div>
+    return (
+        <div className="Box">
+            <h3 style={{color: 'white'}}>Contributors</h3>
+            <div className="Container">
+                <div className="Column">
+                    <h4 className="col-item">Hari</h4>
+                    <a className="Socials col-item" href="https://github.com/Harivardhan-Swamy">&emsp;<i class="fab fa-github-square"></i></a>
+                </div>
+                <div className="Column">
+                    <h4 className="col-item">Akhil</h4>
+                    <a className="Socials col-item" href="https://github.com/Akhil-2001">&emsp;<i class="fab fa-github-square"></i></a>
+                </div>
+            </div>
         </div>
-       <div className="Row">
-        <a className="Socials" href="#"><i class="fab fa-github-square"></i></a>   
-        <a className="Socials" href="#"><i class="fab fa-github-square"></i></a>
-        </div>
-     
-    </div>
-</div>
 
-
-
-
-);
+    );
 
 
 

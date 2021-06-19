@@ -3,6 +3,7 @@ import { Cards } from './Cards/Cards';
 import { Route } from 'react-router';
 import PathfindingVisualizer from './PathfindingVisualizer/PathfindingVisualizer';
 import Footer from './Footer/Footer';
+import SortingPage from "./SortingVisualizer/SortingPage"
 
 export class CardRouting extends Component{
     render(){
@@ -11,7 +12,7 @@ export class CardRouting extends Component{
             <Route path='/' component={Cards} exact />
             <Route path='/Cards'component={Cards} exact/>
             <Route path='/Cards/Pathfinder' component={PathfindingVisualizer} exact/>
-            <Route path='/Cards/Sorting' component={Footer}/>
+            <Route path='/Cards/Sorting' component={SortingPage}/>
             </section>
         )
     }

@@ -1,0 +1,16 @@
+.array-container {
+    justify-content: center;
+    display: flex;
+    height: 60vh;
+    padding-bottom: 15%;
+    background-color: #060641;
+    
+}
+
+.array-element {
+    width: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #00d6b9cc;
+    display: inline-block;
+}

@@ -10,13 +10,13 @@ export class DataForCards extends Component{
                 "Label":"Pathfinder",
                 "Title":"Pathfinding Visualizer",
                 "Source":Image1,
-                "Description":"Some Text about Pathfinding"
+                "Description":"Visualize various pathfinding techniques"
             },
             {
                 "Label":"Sorting",
                 "Title":"Sorting Visualizer",
                 "Source":Image1,
-                "Description":"Some Text about Sorting"
+                "Description":"Visualize various sorting techniques"
             }
         ]
     }

@@ -8,6 +8,7 @@ export class Cards extends Component{
     render(){
         const {Methods}=this.context
         return(
+            <div className="container-static">
             <div id="product">   
                 {
                     Methods.map(Method=>(
@@ -18,14 +19,15 @@ export class Cards extends Component{
                            <div className="content">
                             <h3>
                                 <Link to={`/Cards/${Method.Label}`}>
-                            {Method.Title}</Link>
-                            <p> {Method.Description}</p>
+                                {Method.Title}</Link>
                             </h3>
+                            <p className="description">{Method.Description}</p>
                            
                             </div> 
                         </div>
                     ))
                 }
+            </div>
             </div>
         )
 

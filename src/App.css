@@ -10,3 +10,18 @@
 .App-header{
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+.head-text {
+  letter-spacing: 3px;
+}
+
+.heading {
+  letter-spacing: 10px;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+#heading-ref {
+  text-decoration: none;
+}

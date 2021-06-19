@@ -1,0 +1,50 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    background-color: #00d6ba;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.nav-logo {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: aliceblue;
+}
+
+.nav-button {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 25px;
+    color: aliceblue;
+    font-weight: 650;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.nav-button:hover {
+    background-color: #4ddbc8;
+    transition: all 0.2s ease-in-out;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
