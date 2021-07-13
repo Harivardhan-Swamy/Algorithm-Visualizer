@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+
+## Checkout The project hosted on heroku using the link:
+## https://algorithm-visualizer1.herokuapp.com/
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
